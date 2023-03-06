@@ -14,4 +14,4 @@ SAMPLE OVERVIEW
 
 # Submitting your exercise 
 
-See [instructions for submitting your work](https://github.com/bunker-tech/hiring-exercises/blob/master/README.md#general-instructions)
+See [instructions for submitting your work](https://github.com/bunker-tech/take-home-exercises/blob/master/README.md#general-instructions)

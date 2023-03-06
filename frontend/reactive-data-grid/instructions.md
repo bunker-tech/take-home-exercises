@@ -25,6 +25,6 @@ Aesthetics of the datagrid is not a priority, but you can flex your design skill
 * Data grid must be able to contain thousands of rows, while still having a smooth and lag-free experience
 
 # Submitting your exercise 
-See [instructions for submitting your work](https://github.com/bunker-tech/hiring-exercises/blob/master/README.md#general-instructions)
+See [instructions for submitting your work](https://github.com/bunker-tech/take-home-exercises/blob/master/README.md#general-instructions)
 
 

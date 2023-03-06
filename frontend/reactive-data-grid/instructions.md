@@ -10,19 +10,24 @@ DOCS:       Nice to have, but not mandatory
 ```
 
 # Overview
-John Doe wants to start understanding his spending habits better. He wants you to create a datagrid that will allow him to better explore his finances and gain insights on where he could possibly cut down his spending. John Doe has 10,000 transactions he wants to look through.
+John Doe wants to start understanding his spending habits better. He wants you to create a table that will allow him to better understand his finances and gain insights on where he could possibly cut down his spending. John Doe has a dataset of 10,000 transactions he wants to look through.
 
-* How you want to structure this datagrid and what insights you want to share is solely up to you (don't go too crazy), an example:
-  * Aggregating transactions by counterparty, when users clicks on a counterparty, show all transactions made by selected counterparty, sorted by transaction size
+Things the interface need to achieve: 
+* Datagrid showing the full list of transactions and all their fields
+  * It should be able to hold thousands of rows while maintaining a smooth and relatively lag-free experience
+* Ability to sort by amount and date
+* Search bar that dynamically displays a filtered list of transactions that changes depending on what the user types in it in real-time
 
-The main focus will be on whether you are able to meet the exercise requirements and how well you structure your code/react components. 
+Stretch Goals: 
+* Another table that aggregates the transactions by counterparty
+  * Clicking on a counterparty on this table should populate the transaction table with only the transactions by the given counterparty
+* Line graph that shows spending trends over time
 
-Aesthetics of the datagrid is not a priority, but you can flex your design skills if you want :) 
+The main focus will be on whether you are able to meet the exercise requirements and how well you structure your code and React components. 
 
+Wherever the requirements are ambiguous to you, feel free to clarify with us. Or exercise your discretion, but be ready to rationalise your design decisions ;)
 
-## Definition of Done
-* Reactive data grid that will allow John to explore and gain insights about said transactions
-* Data grid must be able to contain thousands of rows, while still having a smooth and lag-free experience
+Aesthetics of the datagrid is not a priority here, but you're free to flex your design skills if you want :) 
 
 # Submitting your exercise 
 See [instructions for submitting your work](https://github.com/bunker-tech/take-home-exercises/blob/master/README.md#general-instructions)

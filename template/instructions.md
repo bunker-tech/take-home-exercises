@@ -10,7 +10,7 @@ DOCS:       Nice to have, but not mandatory
 ```
 
 # Overview
-SAMPLE OVERVIEW 
+
 
 # Submitting your exercise 
 

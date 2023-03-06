@@ -12,6 +12,8 @@ DOCS:       Nice to have, but not mandatory
 # Overview
 John Doe wants to start understanding his spending habits better. He wants you to create a table that will allow him to better understand his finances and gain insights on where he could possibly cut down his spending. John Doe has a dataset of 10,000 transactions he wants to look through.
 
+> :rotating_light: :exclamation: :point_right: **Please use the dataset provided here [/shared/sample_transactions.csv](/shared/sample_transactions.csv)** :point_left: :exclamation: :rotating_light:
+
 Things the interface need to achieve: 
 * Datagrid showing the full list of transactions and all their fields
   * It should be able to hold thousands of rows while maintaining a smooth and relatively lag-free experience

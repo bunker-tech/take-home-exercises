@@ -15,7 +15,7 @@ LOCATION = ['Singapore', 'Indonesia', 'Japan',
             'Australia']
 
 
-def generate_transaction():
+def generate_transaction(id):
     account = random.choice(ACCOUNTS)
     amount = round(random.uniform(0, 1000), 2)  # round to 2 decimal places
     counterparty = random.choice(COUNTERPARTIES)
@@ -24,13 +24,13 @@ def generate_transaction():
     date = START_DATE + \
         timedelta(days=random.randint(0, (END_DATE - START_DATE).days))
     datestring = date.strftime('%Y-%m-%d')
-    return [account, amount, counterparty, tags, datestring, location]
+    return [id, account, amount, counterparty, tags, datestring, location]
 
 
 with open('sample_transactions.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(['Account', 'Amount', 'Counterparty',
+    writer.writerow(['id','Account', 'Amount', 'Counterparty',
                     'Tags', 'Date', 'Location'])  # write header row
     for i in range(NUM_TRANSACTIONS):
-        transaction = generate_transaction()
+        transaction = generate_transaction(i)
         writer.writerow(transaction)

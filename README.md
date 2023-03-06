@@ -1,6 +1,5 @@
 
 # A few words about take-home exercises
-* 🌎  ~ We're a fully-remote team spread across multiple time zones and we hire candidates from across time and space. Async exercises allow you to show off your skills at a time/place that works for you.
 
 * ⏳  ~ Take-home exercises allow you to work at your own pace. We intentionally structure these to take around 3-6ish hours of time and ask that you limit your investment to no more than the suggested time, however you are free to break this into as many sessions as you wish.
 
@@ -15,6 +14,8 @@
 1. Read the `instructions.md` file in the matching directory. Be sure to read the instructions carefully and ask any clarifying questions by emailing careers@bunkertech.id
 
 2. Create a new **private repository** for your exercise and add the Bunker hiring team members as private collaborators (This is to preserve your anonymity so it's not obvious that you are looking for a new role)
+    * [Oon Tong](https://github.com/oonyoontong)
+    * [Jarvin](https://github.com/jarvin95)
 
 3. Complete as much of the exercise as you can in 6 hours or less. Unless otherwise specified in the `instructions.md` document, you can use any language, framework, or toolchain you wish, although ideally this would be Typescript (Nodejs), Python, Typescript (ReactJS), and SQL (purely because those are the languages we use to build Welcome and will be the most familiar with)
 

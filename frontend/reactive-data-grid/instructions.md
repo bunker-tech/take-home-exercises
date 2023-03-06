@@ -4,7 +4,7 @@
 ```
 TIMEBOX:    6 hours max! (strictly, we don't want to waste your time as well)
 LANGUAGE:   Typescript (no plain javascript please) 
-FRAMEWORKS: React.js (Use any open-source libraries that may aid you)
+FRAMEWORKS: ReactJS or NextJS (+ any open-source libraries that may aid you)
 TESTS:      Nice to have, but not mandatory
 DOCS:       Nice to have, but not mandatory
 ```

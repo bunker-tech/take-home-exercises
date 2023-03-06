@@ -27,9 +27,9 @@ Stretch Goals:
 
 The main focus will be on whether you are able to meet the exercise requirements and how well you structure your code and React components. 
 
-Wherever the requirements are ambiguous to you, feel free to clarify with us. Or exercise your discretion, but be ready to rationalise your design decisions ;)
+Wherever the requirements are ambiguous to you, feel free to clarify with us. Or exercise your discretion, but be ready to rationalise your design decisions!
 
-Aesthetics of the datagrid is not a priority here, but you're free to flex your design skills if you want :) 
+Aesthetics of the datagrid is not a priority here, but you're free to flex your design skills if you want :)
 
 # Submitting your exercise 
 See [instructions for submitting your work](https://github.com/bunker-tech/take-home-exercises/blob/master/README.md#general-instructions)

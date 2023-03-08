@@ -3,7 +3,7 @@
 
 * ⏳  ~ Take-home exercises allow you to work at your own pace. We intentionally structure these to take around 3-6ish hours of time and ask that you limit your investment to no more than the suggested time, however you are free to break this into as many sessions as you wish.
 
-* 🛠 ~ It matches the nature of our work. Most of being an engineer on a remote team is self-directed exploration of a problem, followed by period(s) of cyclic work/edit/review, followed by submittal for review and approval by your peers. Async exercises allow you to do the same.
+* 🛠 ~ It matches the nature of our work. Most of being an engineer on a semi-remote team is self-directed exploration of a problem, followed by period(s) of cyclic work/edit/review, followed by submittal for review and approval by your peers. Async exercises allow you to do the same.
 
 * 👁 ~ It eliminates the performance anxiety of forced-pairing with someone whom you've just met.
 

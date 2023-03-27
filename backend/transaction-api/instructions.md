@@ -19,7 +19,7 @@ Requirements:
     * Filter by one or more fields/attributes (e.g. /transactions?tags=Dining,Travel&counterparty=Google)
     * Sort by one or more fields/attributes (e.g. /transactions?sort=counterparty)
 * Fetch a single record via `GET` request
-    * Stretch goal: return a sparse fieldset, (e.g. /transactions/32?fields=amount,tags)
+    * Stretch goal: return a sparse field, (e.g. /transactions/32?fields=amount,tags)
 
 * Have the JSON Response be normalized into a uniform schema via a serializer or json template
 * Create OAS (OpenAPI Specification) that will allow the developer to better understand the API

@@ -23,6 +23,7 @@ Requirements:
 
 * Have the JSON Response be normalized into a uniform schema via a serializer or json template
 * Create OAS (OpenAPI Specification) that will allow the developer to better understand the API
+* Creating a database to store the transactions is not neccessary, you can load the transactions in-mem (but if you feel like it helps you meet the requirements, feel free)
 
 Don't worry about any webapp concerns other than returning a JSON object via a GET request.
 The examples above are not a contract. Feel free to design the URL structure and JSON schema which you believe will create the best developer experience.

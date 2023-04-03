@@ -22,6 +22,7 @@ The exercise consist of extracting data from the Nobel Prize API, transform, and
 - Create a data extractor that supports pagination, to extract all Nobel Prizes that have been won since 1901. You will only need to extract data from the **GET /NobelPrizes** endpoint, keep only the "en" values.
 - Transform and store the data in tables that are in 3NF (csv is preferred since its easier for you, but if you want to spin up a local instance of sqlite/relational db, it is fine as well, just note the time limit)
 - The data should be in a format that is easy for me to query (for example through SQL) for the individual that has won the most number of Nobel awards.
+- Include the query string for me to query your database (be it through SQL or pandas) for the individual that has won the most number of nobel awards.
 - Include instructions on how to setup the data pipeline and run it
 
 # Submitting your exercise 

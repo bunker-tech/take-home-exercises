@@ -10,10 +10,10 @@ DOCS:       Nice to have, but not mandatory
 ```
 
 # Overview
-You are working as a DevOps Engineer for a software development company that builds a web application for managing customer data. The application runs on a monolithic architecture, vertically scaled on EC2. The company wants to implement a multitenancy architecture and ensure a smooth CI/CD pipeline, using a serverless framework.
+You are working as a DevOps Engineer for a software development company that builds a SaaS data analytics product. The application runs on a single database and service, which is vertically scaled, with no staging environment. The company wants to migrate to a serverless architecture and ensure a smooth CI/CD pipeline, while supporting multitenancy.
 
 ## Task
-Your task is to design a whitepaper that outlines a roadmap to implement a new feature that allows customers to manage their data across multiple regions. You also need to design and outline a multitenancy architecture for the microservices. 
+Your task is to design a whitepaper that outlines a roadmap to implement a new feature that allows customers to manage their data across multiple regions. You also need to design and outline a serverless multitenancy architecture for the microservices. 
 
 The focus on the design should be ease of development, security, and cost savings. Go into the technologies you plan to use and the design choices that you plan to execute.
 

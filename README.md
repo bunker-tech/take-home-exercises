@@ -17,7 +17,7 @@
     * [Oon Tong](https://github.com/oonyoontong)
     * [Jarvin](https://github.com/jarvin95)
 
-3. Complete as much of the exercise as you can in 6 hours or less. Unless otherwise specified in the `instructions.md` document, you can use any language, framework, or toolchain you wish, although ideally this would be Typescript (Nodejs), Python, Typescript (ReactJS), and SQL (purely because those are the languages we use to build Welcome and will be the most familiar with)
+3. Complete as much of the exercise as you can in 6 hours or less. Unless otherwise specified in the `instructions.md` document, you can use any language, framework, or toolchain you wish, although ideally this would be Typescript (Nodejs), Python, Typescript (ReactJS), and SQL (purely because those are the languages we use to build Bunker and will be the most familiar with)
 
 4.  Be sure to include the following in your submission
     * a `README.md` with the following information

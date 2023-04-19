@@ -22,7 +22,8 @@ You should assume that the following resources are already provisioned:
 - An Internet Gateway attached to the VPC
 - A NAT Gateway attached to the private subnet
 - An RDS instance running PostgreSQL
-- Your infrastructure as code script should provision the following resources:
+
+Your infrastructure as code script should provision the following resources:
 
 - An EC2 instance to run the frontend web server
 - An EC2 instance to run the backend API server
@@ -30,9 +31,10 @@ You should assume that the following resources are already provisioned:
 - An Auto Scaling group to ensure that there are always two instances running
 - A security group that allows traffic from the load balancer to the instances
 - A security group that allows traffic from the instances to the RDS instance
+
 You should use the latest version of Node.js and the PostgreSQL client library to set up the frontend and backend servers. You should also configure the instances to log to CloudWatch Logs.
 
-Your infrastructure as code script should be written in either CloudFormation or Terraform. You should include detailed instructions on how to simulate the deployment of the infrastructure and the web application locally.
+Your infrastructure as code script should be written in either CloudFormation/Terraform/Ansible. You should include detailed instructions on how to simulate the deployment of the infrastructure and how the deployment experience will be like.
 
 # Submitting your exercise 
 See [instructions for submitting your work](https://github.com/bunker-tech/take-home-exercises/blob/master/README.md#general-instructions)

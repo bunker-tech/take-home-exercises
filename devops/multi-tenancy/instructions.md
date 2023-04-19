@@ -3,36 +3,36 @@
 ## Guidelines
 ```
 TIMEBOX:    4 hours max!
-LANGUAGE:   Any language
+LANGUAGE:   Ansible/Terraform/CloudFormation
 FRAMEWORKS: Any framework
 TESTS:      Nice to have, but not mandatory
 DOCS:       Nice to have, but not mandatory
 ```
 
 # Overview
-You are working as a DevOps Engineer for a software development company that builds a SaaS data analytics product. The application runs on a single database and service, which is vertically scaled, with no staging environment. The company wants to migrate to a serverless architecture and ensure a smooth CI/CD pipeline, while supporting multitenancy.
+Your team is developing a web application that is hosted on AWS. The application consists of a frontend web server and a backend API server. The application uses a PostgreSQL database hosted on RDS. The team has decided to adopt a DevOps approach to software development and deployment.
 
 ## Task
-Your task is to design a whitepaper that outlines a roadmap to implement a new feature that allows customers to manage their data across multiple regions. You also need to design and outline a serverless multitenancy architecture for the microservices. 
+Your task is to write an infrastructure as code script that can be used to deploy the web application to AWS. However, since actual deployment to the cloud can be expensive and time-consuming, you should focus on local testing and simulation of deployment to the cloud.
 
-The focus on the design should be ease of development, security, and cost savings. Go into the technologies you plan to use and the design choices that you plan to execute.
+You should assume that the following resources are already provisioned:
 
-Key areas to focus on:
-- Data isolation between tenants
-- Authentication and authorization for services
-- CI/CD
-- Observability
+- An AWS account with appropriate permissions
+- A VPC with public and private subnets
+- An Internet Gateway attached to the VPC
+- A NAT Gateway attached to the private subnet
+- An RDS instance running PostgreSQL
+- Your infrastructure as code script should provision the following resources:
 
-## Requirements
-- The CI/CD pipeline should be implemented using a CI/CD tool of your choice.
-- The pipeline should include stages for building, testing, and deploying the application.
-- The application should be deployed on a serverless architecture.
-- The multitenancy architecture should allow multiple customers to access the application, with their data and settings isolated from each other.
-- The architecture should also support different regions, with each customer able to access their data from any region.
+- An EC2 instance to run the frontend web server
+- An EC2 instance to run the backend API server
+- A load balancer to distribute traffic between the two instances
+- An Auto Scaling group to ensure that there are always two instances running
+- A security group that allows traffic from the load balancer to the instances
+- A security group that allows traffic from the instances to the RDS instance
+You should use the latest version of Node.js and the PostgreSQL client library to set up the frontend and backend servers. You should also configure the instances to log to CloudWatch Logs.
 
-## Deliverables
-- A whitepaper outlining the roadmap to implement the new feature and the multitenancy architecture for the microservices.
+Your infrastructure as code script should be written in either CloudFormation or Terraform. You should include detailed instructions on how to simulate the deployment of the infrastructure and the web application locally.
 
-## Assumptions
-- You have access to a serverless platform such as AWS Lambda or Azure Functions.
-- The application has already been deployed on the platform.
+# Submitting your exercise 
+See [instructions for submitting your work](https://github.com/bunker-tech/take-home-exercises/blob/master/README.md#general-instructions)

@@ -15,7 +15,7 @@
 
 2. Create a new **private repository** for your exercise and add the Bunker hiring team members as private collaborators (This is to preserve your anonymity so it's not obvious that you are looking for a new role)
     * [Oon Tong](https://github.com/oonyoontong)
-    * [Jarvin](https://github.com/jarvin95)
+    * [Jacques-Olivier Hache](https://github.com/johache)
 
 3. Complete as much of the exercise as you can in 6 hours or less. Unless otherwise specified in the `instructions.md` document, you can use any language, framework, or toolchain you wish, although ideally this would be Typescript (Nodejs), Python, Typescript (ReactJS), and SQL (purely because those are the languages we use to build Bunker and will be the most familiar with)
 
